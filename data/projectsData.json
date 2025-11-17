@@ -1,13 +1,49 @@
 {
-    Projects: [
+    "Projects": [
         {
-            id: 0,
-            project_name: "Random Quote Generator",
-            description: "A random quote generator",
-            technologies: "JavaScript, HTML, CSS",
-            live_link: ,
-            github_link: ,
-            image_urls: ['', '', '']
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A random quote generator",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://ubersp4m.github.io/a_random_quote_generator-v1/",
+            "github_link": "https://github.com/Ubersp4m/a_random_quote_generator-v1",
+            "image_urls": ["/images/randomquote1.png", "/images/randomquote2.png", "/images/randomquote3.png"]
+        },
+         {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "A project on pagination and filtering of results",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://ubersp4m.github.io/data-pagination-and-filtering-v1/",
+            "github_link": "https://github.com/Ubersp4m/data-pagination-and-filtering-v1",
+            "image_urls": ["/images/pagination1.png", "/images/pagination2.png", "/images/pagination3.png"]
+        },
+         {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "An interactive form that validates with JavaScript",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://ubersp4m.github.io/interactive-form-v3/",
+            "github_link": "https://github.com/Ubersp4m/interactive-form-v3",
+            "image_urls": ["/images/interactiveform1.png", "/images/interactiveform2.png", "/images/interactiveform3.png"]
+        },
+         {
+            "id": 3,
+            "project_name": "Object Oriented Game Show App",
+            "description": "An object oriented game show app where users guess letters to a phrase",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://ubersp4m.github.io/a_random_quote_generator-v1/",
+            "github_link": "https://github.com/Ubersp4m/oop_game-v2",
+            "image_urls": ["/images/oopgameshow1.png", "/images/oopgameshow2.png", "/images/oopgameshow3.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "A webpage that uses fetch API to request a list of random Employees",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://ubersp4m.github.io/public_api_request-v1/",
+            "github_link": "https://github.com/Ubersp4m/public_api_request-v1",
+            "image_urls": ["/images/publicapi1.png", "/images/publicapi2.png", "/images/publicapi3.png"]
         }
     ]
 }
