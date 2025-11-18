@@ -14,7 +14,15 @@ app.get('/', (req, res) => {
 });
 
 app.get('/projects/:id', (req, res) => {
+
     const project = Projects[req.params.id];
+
+    if(!project) {
+        const err = new Error('Page not found');
+        err.status=404;
+        console.log(err.stack);
+        return res.status(404).render('page-not-found', {err});
+    }
     res.render('project', { project });
 });
 
@@ -30,6 +38,8 @@ app.use((req, res, next) => {
 
 app.use((err, req, res, next) => {
     console.log(err.stack);
+    err.message = "Internal server error."
+    err.status = 500;
     res.status(500).render('error', { err });
 });
 
